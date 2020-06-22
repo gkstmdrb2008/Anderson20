@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Wes Anderson</title>
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	
+</head>
+
+<body>
+
+<header>
+		
+		<div class="text-center">
+				<h1>About WesAnderson</h1>
+			</div>
+</header>
+
+<section>
+	<div class="flexbox">
+	<div class="col-2 row">
+		<h3><br><br><br><br>웨스 앤더슨<br>1961.05.01<br>미국 영화감독, 작가<br><br>로얄 테넌바움
+			<br>문라이즈 킹덤<br>그랜드 부다페스트 호텔<br>판타스틱 미스터 폭스</h3>
+	</div>
+	<div class="col-2 row">
+		<img src="wes1.png">
+	</div>
+	<div class="col-2 row text-right">
+		<h3><br><br><br><br>Wes Anderson<br>1961.05,01<br>American Film Director, Writer<br><br>The Royal Tenenbaums<br>Moonrise Kingdom<br>The Grand Budapest Hotel<br>Fantastic Mr.Fox</h3>
+	</div>
+</div>
+</section>
+
+<section>
+	<div class="h-600">
+		<div class="vl"></div>
+
+	</div>
+	<h2 class="text-center big atext">co or</h2>
+
+
+</section>
+
+<section>
+	<div class="h-900">
+		
+		<div class="flexbox">
+	<div class="col-3 row">
+		<br><br><br><br><br><br><br><br><h3>색감 천재<br>영화계의 비주얼리스트라 불리는 그는<br>알록달록하면서도 부드럽고 조화로운 색감의<br>향유를 보여준다.</h3>
+	</div>
+
+	<div class="col-3 row text-right">
+		
+	</div>
+	
+</div>
+
+
+		<div class="flexbox">
+	<div class="col-3 row">
+		
+	</div>
+
+	<div class="col-3 row text-right">
+		<h3><br><br><br><br><br><br>그는 매 영화마다<br>컬러팔레트를 정해두고 의도적으로<br>그 색들을 사용한다. 그의 모든 필모그래피에서는<br>색감의 향연이 펼쳐진다.</h3>
+	</div>
+	
+</div>
+	</div>
+</section>
+
+
+
+	<section>
+			<div class="col-3 row text-center h-900">
+		  	<h2>Color Palette</h2>
+		  		<div class="slideshow-container">
+<div class="mySlides fade">
+   
+    <img src="./wimg/w300554.jpg" style="width:100%">
+    <div class="text">Hotel Chevalier</div>
+  </div>
+
+  <div class="mySlides fade">
+    
+    <img src="./wimg/w300557.jpg" style="width:100%">
+    <div class="text">The Grand Budapest Hotel</div>
+  </div>
+
+  <div class="mySlides fade">
+    
+    <img src="./wimg/w300560.jpg" style="width:100%">
+    <div class="text">Moonrise Kingdom</div>
+  </div>
+
+   <div class="mySlides fade">
+    
+    <img src="./wimg/w300563.jpg" style="width:100%">
+    <div class="text">The Royal Tenenbaums</div>
+  </div>
+
+   <div class="mySlides fade">
+    
+    <img src="./wimg/w300572.jpg" style="width:100%">
+    <div class="text">Fantastic Mr.Fox</div>
+  </div>
+
+   <div class="mySlides fade">
+    
+    <img src="./wimg/w300522.jpg" style="width:100%">
+    <div class="text">The Life Aquatic With Steve Zissou</div>
+  </div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span> 
+</div>
+</div>
+
+
+
+</section>
+<script>
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+
+
+$( document ).ready( function() { $( window ).scroll( function() { if ( $( this ).scrollTop() > 800 ) { $( '.jcm-top' ).fadeIn(); } else { $( '.jcm-top' ).fadeOut(); } } ); $( '.jcm-top' ).click( function() { $( 'html, body' ).animate( { scrollTop : 0 }, 600 ); return false; } ); } );
+
+
+
+
+</script>
+<section>
+	<div class="h-900">
+   <h2 class="text-center big atext">Symmetry</h2>
+   <div class="vl2"></div>
+
+
+
+
+  </div>
+</section>
+
+<section>
+  <div class="h-800">
+    
+    <div class="flexbox">
+  <div class="col-3 row">
+    <br><br><br><br><br><br><br><br><h3>대칭변태<br>웨스 앤더슨의 가장 큰 특징중 하나는 대칭이다.<br>그는 대칭을 강박적으로 사랑한다.</h3>
+  </div>
+
+  <div class="col-3 row text-right">
+    
+  </div>
+  
+</div>
+
+
+    <div class="flexbox">
+  <div class="col-3 row">
+    
+  </div>
+
+  <div class="col-3 row text-right">
+    <h3><br><br><br><br><br><br>영화의 오랜 화면 구성법이<br>무시되는 경향이 나타나 어색할 수도 있지만<br> 익숙해진다면 한 장면 한 장면이 기다려질 것이다.</h3>
+  </div>
+  
+</div>
+  </div>
+</section>
+<div class="text-center row">
+  <h2>centered</h2>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oL0DseCrqfU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+<br><br><br><br>
+<section>
+  <div class="flexbox">
+  <div class="col-2 row">
+    
+  </div>
+  <div class="col-2 row">
+    <div class="bannner">
+    <img src="./wimg/1.jpg">
+    <span class="text">The Grand Budapest Hotel</span>
+  </div>
+  </div>
+  <div class="col-2 row">
+ 
+  </div>
+
+</div>
+</section>
+<section>
+<div class="flexbox">
+  <div class="col-2 row">
+    
+  </div>
+  <div class="col-2 row">
+    <div class="bannner">
+    <img src="./wimg/2.jpg">
+  <span class="text">Hotel Chevalier</span>
+  </div>
+</div>
+  <div class="col-2 row">
+ 
+  </div>
+  
+</div>
+</section>
+<section>
+<div class="flexbox">
+  <div class="col-2 row">
+    
+  </div>
+  <div class="col-2 row">
+    <div class="bannner">
+    <img src="./wimg/4.jpg">
+    <span class="text">Moonrise Kingdom
+    </span>
+  </div>
+</div>
+  <div class="col-2 row">
+ 
+
+  </div>
+</div>
+</section>
+<section class="h-900">
+<div class="flexbox">
+  <div class="col-2 row">
+    
+  </div>
+  <div class="col-2 row">
+     <div class="bannner">
+    <img src="./wimg/3.jpg">
+    <span class="text">The Royal Tenenbaums</span>
+  </div>
+</div>
+  <div class="col-2 row">
+ 
+  </div>
+  
+</div>
+<div class="vl3"></div>
+</section>
+<section>
+  
+  <h2 class="text-center big textl atext">&nbsp;Asymmetry n Symmetry</h2>
+
+  <div class="h-900">
+    <h2 class="text-center"><br><br>그는 대칭을 너무나 사랑하지만 무작정 대치시키려고 억지를 쓰지 않는다.<br>
+      오히려 대칭속에 약간의 비대칭성을 활용해 안정감에 긴장감을 더한다.<br>이는 관객에게 묘한 흥미와 재미를 더한다.</h2>
+</div>
+</section>
+<section>
+  <div class="h-600">
+<a href="#" class="img_box">
+  <img src="./wimg/5.jpg"></a>
+ 
+  <a href="#" class="img_box2">
+  <img src="./wimg/6.jpg"></a>
+
+    <a href="#" class="img_box3">
+  <img src="./wimg/7.jpg"></a>
+ </div>
+
+</section>
+<section>
+  <div class="h-900">
+   <h2 class="text-center big">Symmetry</h2>
+   <div class="vl2"></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   <h2 class="text-center big atext">Fi m</h2>
+  </div>
+</section>
+<section>
+      <div class="col-3 row text-center h-1200">
+        
+          <div class="slideshow-container">
+<div class="mySlides fade">
+
+   <div class="container">
+
+    <img src="./wimg/gposter.jpg" alt="Avatar" class="flower" style="width:100%">
+    <div class="textBox"><div>1927년 세계대전이 한창이던 어느 날,<br> 세계 최고의 부호 마담 D.가 의문의 살인을 당한다.<br> 
+ 유력한 용의자로 지목된 사람은 바로 <br>전설적인 호텔 지배인이자 그녀의 연인 ‘구스타브’! <br>
+ 구스타브는 누명을 벗기 위해 <br>충실한 로비보이 ‘제로’에게 도움을 청하고, 
+ 그 사이 구스타브에게 남겨진 마담 D.의 유산을 노리던<br> 그녀의 아들 ‘드미트리’는 무자비한 킬러를 고용해 <br>[그랜드 부다페스트 호텔]을 찾게 되는데…</div></div>
+  </div>
+
+</div>
+
+  <div class="mySlides fade">
+    <div class="container">
+    <img src="./wimg/movie_image.jpg" alt="Avatar" class="flower" style="width:100%">
+    <div class="textBox"><div>인류를 위협하는 개 독감이 퍼지자,<br> 세상의 모든 개들은 쓰레기 섬으로 추방되고, <br>자신이 사랑하던 개를 잃은 소년은 <br>개를 찾아 홀로 섬으로 떠난다. <br>
+ 소년은 그 곳에서 다섯 마리의 특별한 개들을 만나게 되고,<br> 함께 사라진 개를 찾아가는 그들 앞에 <br>기상천외한 모험이 펼쳐지는데… 
+  <br>
+ 개를 사랑한 소년, <br>
+ 소년을 사랑한 개 <br>
+  
+ 남다른 개들의 색다른 어드벤쳐가 시작된다!</div></div>
+  </div>
+
+</div>
+
+  <div class="mySlides fade">
+    <div class="container">
+    <img src="./wimg/mposter.jpg" alt="Avatar" class="flower" style="width:100%">
+     <div class="textBox"><div>사고로 가족을 잃고 위탁가정을 전전하는 카키 스카우트의 문제아 '샘'<br>
+ 부유한 가정에서 자랐지만<br> 친구라곤 라디오와 책, 고양이밖에 없는 외톨이 '수지'<br>
+ 1년 전, 교회에서 단체로 연극을 보다가<br> 몰래 빠져나온 '샘'은 까마귀 분장을 한 '수지'에게 한눈에 반하게 되고, <br>그 후로 둘은 펜팔을 통해 감춰왔던 상처와 외로움을 나누며 점점 가까워진다. <br>서로를 보듬어주는 유일한 소울메이트이자 연인이 된 '샘'과 '수지'는 <br>아무도 모르는 둘만의 아지트를 찾아 떠나기로 결심하고, <br>필요한 준비물들을 챙겨 각자 약속 장소로 향한다.<br>
+ 몇 시간 후 '샘'과 '수지'의 실종사건으로 인해 펜잔스 섬은 발칵 뒤집히고, <br>수지의 부모님과 카키 스카우트 대원들은 둘의 행방을 찾아 수색작전을 벌이기 시작하는데...</div></div>
+  </div>
+
+</div>
+   <div class="mySlides fade">
+    <div class="container">
+    <img src="./wimg/dposter.jpg" alt="Avatar" class="flower" style="width:100%">
+       <div class="textBox"><div>아버지의 갑작스런 사망소식을 전하기 위해 <br>인도에 있는 엄마를 찾아 1년 만에 뭉친 3형제. <br>
+ 맏형 프랜시스는 이번 여행을 계기로 <br>서먹한 형제 사이가 돈독해지길 바란다.<br> 
+ 항상 이혼생각에 잠겨있던 찰라 <br>아내가 임신하자 구체적으로 이혼을 계획하는 둘째 피터,<br> 
+ 헤어진 애인에게 병적으로 집착하는 막내 잭. <br>
+ 선로가 있어도 길을 잃어버리는 대책 없는 인도기차 ‘다즐링 주식회사’를 탄 채 <br>
+ 세 형제의 사고만발 인도여행이 시작되는데… </div></div>
+  </div>
+
+</div>
+   <div class="mySlides fade">
+    <div class="container">
+    <img src="./wimg/fposter.jpg" alt="Avatar" class="flower" style="width:100%">
+     <div class="textBox"><div>12년 전 깨끗하게 손을 씻고, 가정적인 남편이자, <br>지역 신문 칼럼니스트로 활동하고 있는 Mr. 폭스. <br>큰맘 먹고 장만한 새집에서 즐기는 평온한 전원 생활은 <br>오히려 그의 잠자고 있던 야생 본능을 깨우고… <br>급기야 예전 신기의 절도 기술을 활용, <br>인간 마을 악질 농장주 3인방의 창고를 습격하고 만다. <br>이에 분노한 농장주들은 Mr. 폭스의 집을 송두리째 파괴해가며 그를 잡기 위해 혈안이 되고, <br>Mr. 폭스와 가족은 물론 이웃들까지도 식량 하나 없는 지하 세계에 갇혀버리는 위험에 처한다. <br>이제 생존권을 되찾고 동물 사회 전체를 구하기 위한 <br>Mr. 폭스의 판타스틱한 작전이 시작되는데..</div></div>
+  </div>
+
+</div>
+
+   <div class="mySlides fade">
+    <div class="container">
+    <img src="./wimg/rposter.jpg" alt="Avatar" class="flower" style="width:100%">
+    <div class="textBox"><div>로얄 테넌바움과 그의 아내 에슬린 테넌바움에게는 <br>세 명의 어린 자녀가 있다. <br>태어날 때부터 천부적인 재능을 가진 이들 세 명의 자녀는 <br>부모가 별거하는 바람에 그 충격으로 모두 뿔뿔이 흩어져서 산다. <br>채스(벤 스틸러)는 10대 초의 나이에 부동산 투자 전문가가 됐고 <br>국제금융에 관해서도 믿기 어려울 정도로 해박한 지식을 갖고 있다. <br>입양된 딸인 마고(기네스 팰트로)는 극작가이며 <br>15세 의 나이에 브레이버만 그란트(Braverman Grant) 상과 <br>부상으로 5만 달러를 받은 경력이 있다. 훗날 퓰리처 상까지 수상한다. <br>리치(루크 윌슨)는 주니어 챔피언 테니스 선수이며 <br>3년 연속 US 오픈 타이틀을 획득한 경력이 있다.<br>
+  하나같이 천재였던 이들 세 남매들의 어린 시절은 <br>20여 년에 걸친 배신과 실패 그리고 비극적인 사고로 인하여 그들의 기억 속에서 모두 사라져버린다. <br>그들의 천재성이 꽃을 피우지 못한 것은 모두 그들의 아버지 탓이었다.</div></div>
+  </div>
+
+</div>
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+
+</div>
+
+
+
+</section>
+<script>
+  var slideIndex = 1;
+showSlides(slideIndex);
+
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1} 
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none"; 
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block"; 
+  dots[slideIndex-1].className += " active";
+}
+
+
+
+$( document ).ready( function() { $( window ).scroll( function() { if ( $( this ).scrollTop() > 800 ) { $( '.jcm-top' ).fadeIn(); } else { $( '.jcm-top' ).fadeOut(); } } ); $( '.jcm-top' ).click( function() { $( 'html, body' ).animate( { scrollTop : 0 }, 600 ); return false; } ); } );
+
+
+
+
+</script>
+
+
+
+
+</body>
+
+<footer>
+	
+			<div>
+				<div class="h-400">
+				<h2 class="text-center big textc">Thank you</h2>
+			</div>
+				<h4 class="text-center">About WesAnderson</h4>
+				<p class="text-center text-white">
+				ⓒ 2020. 국립한경대학교 디자인학과 한승규 All Rights Reserved.</p>
+			
+			</div>
+			
+
+</footer>
+</html>
